@@ -1,0 +1,7 @@
+adhya@adhya:~/System-Software-Hands-On-List-2/Hands-On-List-1-SS/19$ mknod myfifo p
+adhya@adhya:~/System-Software-Hands-On-List-2/Hands-On-List-1-SS/19$ ls -l myfifo
+file myfifo
+prw-r--r-- 1 adhya adhya 0 Oct 20 01:20 myfifo
+myfifo: fifo (named pipe)
+
+

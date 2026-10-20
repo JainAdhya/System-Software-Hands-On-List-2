@@ -1,0 +1,6 @@
+adhya@adhya:~/System-Software-Hands-On-List-2/Hands-On-List-1-SS/19$ strace -e trace=mknod,mknodat mknod fifo_mknod p
+mknodat(AT_FDCWD, "fifo_mknod", S_IFIFO|0666) = 0
++++ exited with 0 +++
+adhya@adhya:~/System-Software-Hands-On-List-2/Hands-On-List-1-SS/19$ strace -e trace=mknod,mknodat mkfifo fifo_mkfifo
+mknodat(AT_FDCWD, "fifo_mkfifo", S_IFIFO|0644) = 0
++++ exited with 0 +++
